@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@stacks/connect": "^8.2.3",
-    "@stacks/transactions": "^7.3.0",
-    "@stacks/network": "^7.2.0",
+    "@stacks/transactions": "^8.0.0",
+    "@stacks/network": "^8.0.1",
     "next": "14.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -20,7 +20,7 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3",
-    "eslint": "8.46.0",
+    "eslint": "^8.54.0",
     "eslint-config-next": "14.1.0"
   }
 }
