@@ -1,12 +1,36 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import CreateStream from "../../components/CreateStream";
-import Withdraw from "../../components/Withdraw";
+import StreamCard from "../../components/StreamCard";
+import { fetchStreams } from "../../lib/contract"; // helper to fetch streams
 
 export default function Dashboard() {
+  const [streams, setStreams] = useState([]);
+
+  useEffect(() => {
+    const getStreams = async () => {
+      const data = await fetchStreams();
+      setStreams(data);
+    };
+    getStreams();
+  }, []);
+
   return (
     <div className="p-10">
-      <h2 className="text-2xl font-bold">Dashboard</h2>
+      <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
+
       <CreateStream />
-      <Withdraw />
+
+      <div className="mt-6">
+        {streams.length === 0 ? (
+          <p>No active streams yet</p>
+        ) : (
+          streams.map((stream) => (
+            <StreamCard key={stream.id} stream={stream} />
+          ))
+        )}
+      </div>
     </div>
   );
 }
