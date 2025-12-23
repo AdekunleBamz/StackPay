@@ -1,4 +1,4 @@
-;; StackPay — Payro
+;; StackPay — Payr
 
 (define-map streams
   { id: uint }
