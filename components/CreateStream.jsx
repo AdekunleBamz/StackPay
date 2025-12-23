@@ -1,10 +1,10 @@
 "use client";
 
 import { openContractCall } from "@stacks/connect";
-import { uintCV, standardPrincipalCV } from "@stacks
-import { contractAddress,contractName } from "../lib/contract";
+import { uintCV, standardPrincipalCV } from "@stacks/transactions";
+import { contractAddress, contractName } from "../lib/contract";
 
-
+export default function CreateStream() {
   async function create() {
     await openContractCall({
       contractAddress,
