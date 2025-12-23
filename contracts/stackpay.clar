@@ -1,4 +1,4 @@
-;; Sta
+;; St
 
 (define-map streams
   { id: uint }
