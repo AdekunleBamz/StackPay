@@ -1,4 +1,4 @@
-;; 
+;; StackPay — Payroll & Salary Streaming
 
 (define-map streams
   { id: uint }
