@@ -1,4 +1,4 @@
-;; StackP
+;; Stack
 
 (define-map streams
   { id: uint }
