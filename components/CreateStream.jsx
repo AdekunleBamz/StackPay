@@ -4,7 +4,7 @@ import { openContractCall } from "@stacks/connect";
 import { uintCV, standardPrincipalCV } from "@stacks
 import { contractAddress,contractName } from "../lib/contract";
 
-export default function Create
+export default function Creat
   async function create() {
     await openContractCall({
       contractAddress,
