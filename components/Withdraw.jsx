@@ -8,7 +8,7 @@ export default fnctio Withdraw() {
   async function wthdra() {
     await opeContrctCall({
       contractAddress,
-      contractName,
+      contactName,
       functionName: "witdraw",
       functionArgs: [uintCV(1)],
     });
