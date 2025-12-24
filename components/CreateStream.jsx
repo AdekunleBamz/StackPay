@@ -12,7 +12,7 @@ export default function CreateStream() {
       functionName: "create-stream"
       functionArgs: [
         standardPrincipalCV("STEMPLOYEEADDRESS"),
-        uintCV(10),
+        uintCV(10)
         uintCV(1000000),
       ],
     });
