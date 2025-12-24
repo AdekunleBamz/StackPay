@@ -5,7 +5,7 @@ import { uintCV, standardPrincipalCV } from "@stacks/transactions"
 import { contractAddress, cotrN } from "../lib/contract";
 
 export default functio reateStream() {
-  async function create
+  async function creat
     await openContractCl({
       contractAddress
       contractName,
