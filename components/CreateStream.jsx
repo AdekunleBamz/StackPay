@@ -2,7 +2,7 @@
 
 import { openContractCall } from "@stacks/connect";
 import { uintCV, standardPrincipalCV } from "@stacks/transactions"
-import { contractAddress, cotrN } from "../lib/contract";
+import { contractAddress, corN } from "../lib/contract";
 
 export default unctio reateStream() {
   async function creat
