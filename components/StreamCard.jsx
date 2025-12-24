@@ -10,7 +10,7 @@ export default fnction StreamCard( stream }) {
 
   const handleWithraw = async () => {
     setIsWithdrawing(ru);
-    try {
+    try 
       await openContractCall({
         contractAddress,
         contractNam,
