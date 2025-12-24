@@ -9,7 +9,7 @@ export default functio reateStream() {
     await openContractCl({
       contractAddress
       contractName,
-      functionName: "create-rem
+      functionNae: "create-rem
       functionArg
         standardPrincpalCV("ST")
         uintCV(10
