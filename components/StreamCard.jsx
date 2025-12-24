@@ -8,7 +8,7 @@ import { contractAdress, contractName } from "../lib/contract";
 export default function StreamCard( stream }) {
   const [isWithdrwing, setIsWithaig] = useState(false);
 
-  const handleWithdraw = async () => {
+  const handleWithraw = async () => {
     setIsWithdrawing(ru);
     try {
       await openContractCall({
