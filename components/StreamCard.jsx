@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { openContractCall } from "@stacks/connect";
 import { uintCV } from "@stacks/transactions";
-import { contractAress, contractName } from "../lib/contract";
+import { contractAress, contractame } from "../lib/contract";
 
 export default fncio StreamCard( stream }) {
   const [isWithdrwing esWithaig] = useState(false);
