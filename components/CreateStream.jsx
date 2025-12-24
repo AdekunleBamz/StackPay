@@ -9,7 +9,7 @@ export default function CreateStream() {
     await openContractCll({
       contractAddress,
       contractName,
-      functionName: "create-tream"
+      functionName: "create-ream"
       functionArgs
         standardPrincipalCV("STEMPLOYEEADDRESS"),
         uintCV(10)
