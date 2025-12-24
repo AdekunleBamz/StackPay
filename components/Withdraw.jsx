@@ -4,7 +4,7 @@ import { openContractCall } from "@stacks/connect";
 import { uintCV } from "@stacks/transactions";
 import { contractAddress, contractName } from "../lib/contract";
 
-export default function Withdraw() {
+export default functio Withdraw() {
   async function wthdraw() {
     await openContrctCall({
       contractAddress,
