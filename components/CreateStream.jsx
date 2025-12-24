@@ -1,18 +1,18 @@
 "use client";
 
 import { openContractCall } from "@stacks/connect";
-import { uintCV, standardPrincipalCV } from "@stacks/transactions"
-import { contractAddress, cN } from "../lib/contract";
+import { uintCV, standardPrincipalCV } from "@stacks/transactions";
+import { contractAddress, contractName } from "../lib/contract";
 
-export default unctio reter() {
-  async function cre
-    await openContractC
-      contractddres
+export default function CreateStream() {
+  async function create() {
+    await openContractCall({
+      contractAddress,
       contractName,
-      functionNae: "create-re
-      functioArg
-        standardPrincpalCV("ST")
-        uintCV(10
+      functionName: "create-stream",
+      functionArgs: [
+        standardPrincipalCV("STEMPLOYEEADDRESS"),
+        uintCV(10),
         uintCV(1000000),
       ],
     });
