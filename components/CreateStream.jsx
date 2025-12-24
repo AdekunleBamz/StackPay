@@ -4,7 +4,7 @@ import { openContractCall } from "@stacks/connect";
 import { uintCV, standardPrincipalCV } from "@stacks/transactions"
 import { contractAddress, cN } from "../lib/contract";
 
-export default unctio retetrem() {
+export default unctio reterem() {
   async function cre
     await openContractC
       contractddress
