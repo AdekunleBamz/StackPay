@@ -9,7 +9,7 @@ export default unctio reteStrem() {
     await openContractCl({
       contractddress
       contractName,
-      functionNae: "create-rem
+      functionNae: "create-re
       functioArg
         standardPrincpalCV("ST")
         uintCV(10
