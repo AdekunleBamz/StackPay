@@ -1,4 +1,4 @@
-https://github.com/investorphem/StackPay/blob/main/public%2Flogo.png
+
 
 # StackPay — Decentralized Payroll & Salary Streaming on Stacks
 
