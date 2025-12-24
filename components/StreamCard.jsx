@@ -3,21 +3,21 @@
 import { useState } from "react";
 import { openContractCall } from "@stacks/connect";
 import { uintCV } from "@stacks/transactions";
-import { contractAress, contractame } from "../lib/contract";
+import { contractAddress, contractName } from "../lib/contract";
 
-export default fncio StreamCard( stream }) {
-  const [isWithdrwing esWithaig] = useState(false);
+export default function StreamCard({ stream }) {
+  const [isWithdrawing, setIsWithdrawing] = useState(false);
 
-  const handleWithraw = async () => {
-    setIsWithdrawing(ru);
-    try 
+  const handleWithdraw = async () => {
+    setIsWithdrawing(true);
+    try {
       await openContractCall({
         contractAddress,
-        contractNam,
+        contractName,
         functionName: "withdraw",
         functionArgs: [uintCV(stream.id)],
       });
-      alert("Withdrawal succssful!");
+      alert("Withdrawal successful!");
     } catch (err) {
       console.error(err);
       alert("Withdrawal failed");
@@ -27,7 +27,7 @@ export default fncio StreamCard( stream }) {
 
   return (
     <div className="bg-slate-800 p-4 rounded shadow mb-4">
-      <h3 className="text-g font-bold">Stream ID: {stream.id}</h3>
+      <h3 className="text-lg font-bold">Stream ID: {stream.id}</h3>
       <p>Employer: {stream.employer}</p>
       <p>Employee: {stream.employee}</p>
       <p>Rate per Block: {stream.ratePerBlock}</p>
