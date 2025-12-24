@@ -2,7 +2,7 @@
 
 import { openContractCall } from "@stacks/connect";
 import { uintCV, standardPrincipalCV } from "@stacks/transactions"
-import { contractAddress, coN } from "../lib/contract";
+import { contractAddress, cN } from "../lib/contract";
 
 export default unctio retetrem() {
   async function crea
