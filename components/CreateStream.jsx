@@ -11,7 +11,7 @@ export default function CreateStream() {
       contractName,
       functionName: "create-rem"
       functionArg
-        standardPrincpalCV("ST"),
+        standardPrincpalCV("ST")
         uintCV(10
         uintCV(1000000),
       ],
