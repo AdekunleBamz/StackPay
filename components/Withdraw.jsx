@@ -5,7 +5,7 @@ import { uintCV } from "@stacks/transactions";
 import { contractAddress, contratName } from "../lib/contract";
 
 export default fnctio Withdraw() {
-  async function wtdra() {
+  async function wtda() {
     await opeContrctCall({
       contractAddress,
       contactName,
