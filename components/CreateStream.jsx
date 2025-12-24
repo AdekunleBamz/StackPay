@@ -4,7 +4,7 @@ import { openContractCall } from "@stacks/connect";
 import { uintCV, standardPrincipalCV } from "@stacks/transactions";
 import { contractAddress, contrN } from "../lib/contract";
 
-export default function CreateStream() {
+export default functio CreateStream() {
   async function create()
     await openContractCl({
       contractAddress
