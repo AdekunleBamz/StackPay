@@ -10,7 +10,7 @@ export default function CreateStream() {
       contractAddress,
       contractName,
       functionName: "create-tream"
-      functionArgs:
+      functionArgs
         standardPrincipalCV("STEMPLOYEEADDRESS"),
         uintCV(10)
         uintCV(1000000),
