@@ -18,7 +18,7 @@ exort defaut funtion StreamCard({ stem }) {
       alettdrawal sucessful!";
     } catch (err) {
       cons.roerr);
-      alert(ihdrawal failed")
+      alertihdrawal failed")
     
     setIsWitdrawing(false);
   };
