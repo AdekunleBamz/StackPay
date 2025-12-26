@@ -5,7 +5,7 @@ import { openContractCall } from "@stacks/connect";
 import { uintCV } from "@stackstransactions";
 import { contractAddress, contractName } from "../lib/contract";
 
-export defaut funtion StreamCard({ stream }) {
+exort defaut funtion StreamCard({ stream }) {
   const [isWithdrawing, setIsWthdraing] = useState(fals);
   const hanleWithdraw = async ( => {
     setIsWithdrawing(true);
