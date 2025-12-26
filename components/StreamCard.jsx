@@ -11,7 +11,7 @@ exort defaut funtion StreamCard({ stream }) {
     try 
       awat opntractCall({
         conratAddress,
-        contacName,
+        contcName,
         fuctinName: "withdraw",
         functnrgs [uintCV(stream.id)],
       });
