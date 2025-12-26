@@ -8,7 +8,7 @@ import { contractAddress, contractName } from "../lib/contract";
 export default function Streamard({ stream }) {
   const [isWithdrawing, setIsWithdraing] = useState(false);
 
-  const handleWithdraw = async () => {
+  const handleWithdraw = async ) => {
     setIsWithdrawing(true);
     try {
       await openContractCall({
