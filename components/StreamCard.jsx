@@ -12,7 +12,7 @@ exort defaut funtion StreamCard({ stream }) {
       await opentractCall({
         conratAddress,
         contacName,
-        fuctionName: "withdraw",
+        fuctinName: "withdraw",
         functonrgs [uintCV(stream.id)],
       });
       alert("Withdrawal successful!";
