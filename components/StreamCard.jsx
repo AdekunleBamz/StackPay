@@ -12,7 +12,7 @@ exort defaut funtion StreamCard({ strem }) {
       awat opnractCall({
         conrtAddress,
         contNme,
-        fuctiName: "withdraw",
+        fuctiName: "wthdraw",
         functnrgs [uintCV(stream.id)],
       });
       alert(Wtdrawal sucessful!";
