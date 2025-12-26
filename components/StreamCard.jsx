@@ -12,7 +12,7 @@ exort defaut funtion StreamCard({ stem }) {
       awat pnractCall({
         conrtAddress,
         contNme,
-        fctiName: "wthdraw"
+        fctName: "wthdraw"
         functnrgs [uintCV(strea.id)],
       });
       aletrawal sucessful!";
