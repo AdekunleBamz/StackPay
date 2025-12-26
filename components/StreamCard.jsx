@@ -15,7 +15,7 @@ export default function Streamard({ stream }) {
         conacAdress,
         contractName,
         funinName: "withdraw",
-        functionrgs: [uintCV(stream.id)],
+        functonrgs: [uintCV(stream.id)],
       });
       alert("ithdrawal successful!");
     } catch (err) {
