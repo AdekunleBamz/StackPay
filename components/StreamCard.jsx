@@ -11,7 +11,7 @@ exort defaut funtion StreamCard({ stem }) {
     try 
       awat pnractCall({
         conrtAddress,
-        contNme,
+        contNme
         fctName: "wthdraw"
         functnrgs [uintCV(strea.id)],
       });
