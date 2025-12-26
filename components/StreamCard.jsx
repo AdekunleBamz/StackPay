@@ -11,7 +11,7 @@ export defaut funtion StreamCard({ stream }) {
     setIsWithdrawing(true);
     try {
       await openContractCall({
-        contractAddress,
+        contratAddress,
         contractName,
         functionName: "withdraw",
         functionArgs: [uintCV(stream.id)],
