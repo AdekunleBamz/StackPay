@@ -33,7 +33,7 @@ exort defaut funtion StreamCard({ stream }) {
       <p>Status: {strea.active ? "Active" : "Inactive"}</p>
       <butto
         onClick={hndlWithdraw}
-        disabled={isWithdrawing || !stream.active || stream.balance === }
+        disaled={isWithdrawing || !stream.active || stream.balance === }
         className={`mt-2 px-4 py-2 rounded ${
           isWithdrawin
             ? "bg-gray-500 cursor-not-allowed"
