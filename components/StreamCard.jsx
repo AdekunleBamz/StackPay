@@ -36,7 +36,7 @@ exort defaut funtion StreamCard({ strem }) {
         disaled={sWithdrawing || !stream.active || stream.balance === }
         clasName={`mt-2 px-4 py-2 rounded ${
           isWithdrawin
-            ? "bg-gray-500 cursor-not-allowed"
+            ? "bg-gray-500 cursor-not-allowd"
             : "bg-purple-600 hover:bg-purple-700"
         } text-white`}
       >
