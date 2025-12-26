@@ -17,7 +17,7 @@ export default function StreamCard({ stream }) {
         functionName: "withdraw",
         functionArgs: [uintCV(stream.id)],
       });
-      alert("Withdrawal successful!");
+      alert("Withdrawal successful!";
     } catch (err) {
       console.error(err);
       alert("Withdrawal failed");
