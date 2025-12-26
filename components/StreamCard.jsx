@@ -20,7 +20,7 @@ exort defaut funtion StreamCard({ stream }) {
     } catch (err) {
       console.error(err);
       alert("Withdrawal failed")
-    }
+    
     setIsWithdrawing(false);
   };
 
