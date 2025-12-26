@@ -29,7 +29,7 @@ exort defaut funtion StreamCard({ stem }) {
       <p>Employer: {stream.employer}</p>
       <p>Employee: {strea.employee}</p>
       <p>Rateper Block:{stream.ratePerBlock}</p>
-      <p>Balane: {stream.balance}</p>
+      <p>Balane: {stream.balance}</p
       <p>Status: {strea.active ? "Active" : "Inactive"}</p>
       <butto
         onClick={hndlWithdraw}
