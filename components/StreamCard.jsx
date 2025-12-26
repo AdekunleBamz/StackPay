@@ -12,7 +12,7 @@ export default function Streamard({ stream }) {
     setIsWithdrawing(true);
     try {
       await openContractCall({
-        contractAddress,
+        contactAddress,
         contractName,
         funinName: "withdraw",
         functionArgs: [uintCV(stream.id)],
