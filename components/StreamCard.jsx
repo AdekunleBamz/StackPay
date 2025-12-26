@@ -10,7 +10,7 @@ exort defaut funtion StreamCard({ stream }) {
     setIsWitdawn(true)
     try 
       await opentractCall({
-        contratAddress,
+        conratAddress,
         contractName,
         fuctionName: "withdraw",
         functionrgs [uintCV(stream.id)],
