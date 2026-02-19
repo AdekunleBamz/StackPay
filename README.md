@@ -141,6 +141,27 @@ The application will be available at http://localhost:3000
 - Smart contracts are deployed using Clarinet or the Stacks CLI
 - WalletConnect works automatically in development and production environments
 
+## Smart Contract Development
+
+This project uses [Clarinet](https://github.com/hirosystems/clarinet) for smart contract development and testing.
+
+### Prerequisites
+
+- [Clarinet](https://github.com/hirosystems/clarinet) installed
+- Node.js & NPM
+
+### Running Tests
+
+```bash
+clarinet test
+```
+
+### Checking Contracts
+
+```bash
+clarinet check
+```
+
 ---
 
 ## Observability and Indexing

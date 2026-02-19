@@ -187,24 +187,11 @@
   (ok (map execute-operation operations))
 )
 
-;; Read-only function to fetch all active streams
-(define-read-only (get-all-streams)
-  (begin
-    (define streams-list (list))
-    (define counter (var-get stream-id-counter))
+;; Read-only function to fetch recent streams (example of pagination pattern)
+(define-read-only (get-last-stream-id)
+  (var-get stream-id-counter)
+)
 
-    (define (loop i acc)
-      (if (> i counter)
-          acc
-          (let ((s (map-get? streams { id: i })))
-            (if (and s (get active s))
-                (loop (+ i u1) (cons s acc))
-                (loop (+ i u1) acc)
-            )
-          )
-      )
-    )
-
-    (loop u1 streams-list)
-  )
+(define-read-only (get-stream (id uint))
+  (map-get? streams { id: id })
 )
